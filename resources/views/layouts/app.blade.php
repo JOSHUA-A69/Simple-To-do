@@ -99,10 +99,6 @@
         <div>
             <a href="{{ route('todos.index') }}">Todo List</a>
         </div>
-        <div>
-            <a href="{{ route('todos.index') }}">Home</a>
-            <a href="{{ route('todos.create') }}">Create Todo</a>
-        </div>
     </nav>
 
     <div class="container">
