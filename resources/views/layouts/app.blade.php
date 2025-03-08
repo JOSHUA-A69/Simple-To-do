@@ -80,10 +80,11 @@
         .footer {
             background-color: #f8f9fa;
             text-align: center;
-            padding: 20px;
+            padding: 10px; /* Reduced padding */
             position: fixed;
             bottom: 0;
             width: 100%;
+            font-size: 0.8rem; /* Adjusted font size */
         }
         .alert {
             padding: 15px;
