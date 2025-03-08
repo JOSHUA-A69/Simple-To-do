@@ -72,16 +72,24 @@
         }
 
         .btn-secondary {
-            background-color: #6c757d;
+            background-color: #007bff; /* Changed to blue */
             border: none;
+            color: white; /* White font */
         }
 
         .btn-secondary:hover {
-            background-color: #545b62;
+            background-color: #0056b3; /* Darker blue on hover */
         }
 
-        .btn-secondary {
+        .btn-secondary a {
             text-decoration: none;
+            color: white;
+            display: inline-block;
+            padding: 10px 15px;
+        }
+
+        .btn-secondary a:hover {
+            color: white;
         }
 
         .form-check-input {
